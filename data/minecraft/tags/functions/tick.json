@@ -1,0 +1,8 @@
+{
+    "values": [
+        "magic:main",
+        "magic:merge",
+        "magic:cooldown_update",
+        "magic:display_gauge"
+    ]
+}

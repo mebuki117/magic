@@ -1,0 +1,1 @@
+execute as @s[scores={magic_playerxp=20..}] run xp add @s -20 points
