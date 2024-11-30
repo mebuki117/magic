@@ -1,1 +1,1 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:apple"}},limit=1,sort=nearest] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:gold_block"}},limit=1,sort=nearest,distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:sugar"}},limit=1,sort=nearest,distance=..1] run function magic:merge/1
+execute as @e[type=item,nbt={Item:{id:"minecraft:apple"}},sort=nearest] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:gold_block"}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:sugar"}},distance=..1] run function magic:merge/1/main
