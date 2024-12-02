@@ -3,6 +3,8 @@
         "magic:main",
         "magic:merge",
         "magic:cooldown_update",
-        "magic:display_gauge"
+        "magic:display_gauge",
+        "magic:magics/sub/2/cooldown_update",
+        "magic:magics/sub/2/display_gauge"
     ]
 }
