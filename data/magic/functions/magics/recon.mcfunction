@@ -1,4 +1,4 @@
-function magic:remove_xp
+execute as @s run xp add @s -50 points
 
 scoreboard players set @s magic_cooldown 440
 scoreboard players set @s magic_rec_cd 66

@@ -1,1 +1,0 @@
-execute as @s run xp add @s -20 points

@@ -3,3 +3,4 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:ender_eye"}},sort=nearest] at @
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_pickaxe"}},sort=nearest] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:tnt"}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:redstone_block"}},distance=..1] run function magic:merge/mine/main
 execute as @e[type=item,nbt={Item:{id:"minecraft:spider_eye"}},sort=nearest] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:pufferfish"}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:lily_of_the_valley"}},distance=..1] run function magic:merge/poison/main
+execute as @e[type=item,nbt={Item:{id:"minecraft:feather"}},sort=nearest] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:hopper"}},distance=..1] if entity @e[type=item,nbt={Item:{id:"minecraft:clock",tag:{CustomModelData:3}}},distance=..1] run function magic:merge/twister/main
