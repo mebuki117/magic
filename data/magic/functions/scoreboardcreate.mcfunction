@@ -8,10 +8,12 @@ scoreboard objectives add magic_rec_dummy
 scoreboard objectives add magic_rec_cd dummy
 scoreboard objectives add magic_rec_cd_s dummy
 scoreboard objectives add magic_rec_cd_d dummy
+scoreboard objectives add magic_lb_dummy dummy
 
 scoreboard players set @a magic_cooldown 40
 scoreboard players set @a magic_cd_stage 0
 scoreboard players set @a magic_cd_dummy 20
-scoreboard players set @a magic_rec_cd 20
+scoreboard players set @a magic_rec_cd 6
 scoreboard players set @a magic_rec_cd_s 0
-scoreboard players set @a magic_rec_cd_d 5
+scoreboard players set @a magic_rec_cd_d 3
+scoreboard players set @a magic_lb_dummy 0
