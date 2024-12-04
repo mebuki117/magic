@@ -3,7 +3,7 @@ execute as @s if entity @a[gamemode=survival,distance=..2,scores={magic_temp=0}]
 
 # effect
 execute as @a[gamemode=survival,distance=..2,scores={magic_temp=0}] run effect give @s minecraft:levitation 1 15
-execute as @a[gamemode=survival,distance=..2,scores={magic_temp=0}] run effect give @s minecraft:wither 2 2
+execute as @a[gamemode=survival,distance=..2,scores={magic_temp=0}] run effect give @s minecraft:wither 3 2
 
 # particle
 execute as @a[gamemode=survival,distance=..2,scores={magic_temp=0}] at @s run particle minecraft:spit ~1 ~1 ~0 0 0 0 0 7

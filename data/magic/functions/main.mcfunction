@@ -5,7 +5,7 @@ execute as @a if entity @s[gamemode=survival,scores={magic_wpstick=1},nbt={Selec
 execute as @a if entity @s[gamemode=survival,scores={magic_wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}},Inventory:[{Slot:-106b,id:"minecraft:clock",tag:{CustomModelData:5}}]}] if score @s magic_cooldown matches ..40 if score @s magic_playerxp matches 25.. run function magic:magics/poison
 execute as @a if entity @s[gamemode=survival,scores={magic_wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}},Inventory:[{Slot:-106b,id:"minecraft:clock",tag:{CustomModelData:6}}]}] if score @s magic_cooldown matches ..40 if score @s magic_playerxp matches 40.. run function magic:magics/twister
 
-execute as @a if entity @s[gamemode=survival,scores={magic_wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] if score @s magic_cooldown matches ..40 if score @s magic_playerxp matches ..19 run title @s actionbar "§4経験値が足りません"
+# execute as @a if entity @s[gamemode=survival,scores={magic_wpstick=1},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] if score @s magic_cooldown matches ..40 if score @s magic_playerxp matches ..19 run title @s actionbar "§4経験値が足りません"
 execute as @a if entity @s[gamemode=survival,scores={magic_wpstick=0},nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}}] if score @s magic_cooldown matches ..40 run title @s actionbar {"text":"現在の経験値: ","color":"white","extra":[{"score":{"name":"@s","objective":"magic_playerxp"}}]}
 
 # scoreboard action
