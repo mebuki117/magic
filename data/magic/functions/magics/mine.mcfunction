@@ -1,4 +1,4 @@
-execute as @s run xp add @s -30 points
+execute as @s run xp add @s -5 points
 
 scoreboard players set @s magic_cooldown 440
 

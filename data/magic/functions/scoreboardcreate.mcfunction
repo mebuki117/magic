@@ -4,7 +4,7 @@ scoreboard objectives add magic_cd_stage dummy
 scoreboard objectives add magic_cd_dummy dummy
 scoreboard objectives add magic_itemcount dummy
 scoreboard objectives add magic_playerxp xp
-scoreboard objectives add magic_rec_dummy 
+scoreboard objectives add magic_rec_dummy dummy
 scoreboard objectives add magic_rec_cd dummy
 scoreboard objectives add magic_rec_cd_s dummy
 scoreboard objectives add magic_rec_cd_d dummy
