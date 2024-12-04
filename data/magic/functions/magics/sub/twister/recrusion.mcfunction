@@ -1,4 +1,5 @@
 execute as @s run scoreboard players set @s magic_temp 1
+execute as @s if entity @a[gamemode=survival,distance=..2,scores={magic_temp=0}] at @s run particle minecraft:enchant ~ ~ ~ 1 1 1 1 50
 
 # effect
 execute as @a[gamemode=survival,distance=..2,scores={magic_temp=0}] run effect give @s minecraft:levitation 1 15
