@@ -1,1 +1,1 @@
-execute as @e[limit=1,sort=arbitrary,type=minecraft:armor_stand,team=magic_exp] run scoreboard players remove @s magic_exp_delay 1
+execute as @e[type=minecraft:armor_stand,team=magic_exp] run scoreboard players remove @s magic_exp_delay 1
