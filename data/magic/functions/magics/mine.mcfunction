@@ -1,6 +1,6 @@
 execute as @s run xp add @s -5 points
 
-execute as @a run scoreboard players set @s magic_cooldown 440
+execute as @s run scoreboard players set @s magic_cooldown 440
 
 execute as @s at @s run particle minecraft:enchant ~ ~ ~ 1 1 1 1 50
 
