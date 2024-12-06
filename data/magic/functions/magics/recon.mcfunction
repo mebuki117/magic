@@ -1,7 +1,7 @@
 execute as @s run xp add @s -50 points
 
-scoreboard players set @s magic_cooldown 440
-scoreboard players set @s magic_rec_cd 66
+execute as @a run scoreboard players set @s magic_cooldown 440
+execute as @a run scoreboard players set @s magic_rec_cd 66
 
 execute as @s at @s run summon minecraft:villager ~ ~ ~ {Invulnerable:true,NoAI:true,Silent:true,Team:"magic_recon"}
 execute as @s at @s run tp @e[limit=1,sort=nearest,type=minecraft:villager,team=magic_recon] ~ ~ ~ ~ ~

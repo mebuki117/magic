@@ -6,6 +6,10 @@
         "magic:display_gauge",
         "magic:magics/sub/recon/cooldown_update",
         "magic:magics/sub/recon/display_gauge",
-        "magic:magics/sub/recon/reset_gamemode"
+        "magic:magics/sub/recon/reset_gamemode",
+        "magic:magics/sub/explosion/cooldown_update",
+        "magic:magics/sub/explosion/display_gauge",
+        "magic:magics/sub/explosion/delay",
+        "magic:magics/sub/explosion/explosion"
     ]
 }
